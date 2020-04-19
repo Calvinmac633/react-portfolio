@@ -1,0 +1,10 @@
+.is-hoverable {
+    display: flex;
+}
+.navbar-link {
+    color: blanchedalmond;
+    width: 100%;
+    /* padding: 0; */
+    background-color: rgb(218, 137, 134);
+}
+

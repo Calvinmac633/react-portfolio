@@ -1,0 +1,30 @@
+h1, p {
+    color: white;
+}
+
+.background {
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+  }
+  
+  .background-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  @media (min-width: 650px ) {
+    .background {
+        background-position: center center;
+    }
+  
+    .background-content {
+        align-items: flex-end;
+        justify-content: center;
+    }
+  }
