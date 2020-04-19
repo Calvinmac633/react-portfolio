@@ -3,7 +3,7 @@ import "./style.css";
 
 function Nav() {
   return (
-    <div className="navbar-item has-dropdown is-hoverable">
+    <nav className="navbar navbar-item has-dropdown is-hoverable is-fixed-top">
       <a className="navbar-link is-arrowless">
         Link without arrow
   </a>
@@ -22,7 +22,7 @@ function Nav() {
           Version 0.8.2
     </div>
       </div>
-    </div>
+    </nav>
   );
 }
 
