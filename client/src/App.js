@@ -1,22 +1,30 @@
-import React, { Component } from "react";
-import logo from "./logo.svg";
+import React from "react";
 import "./App.css";
-import Nav from "../src/components/Nav"
-import Background from "./components/Background/index.js"
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import imageUrl from "./assets/CalvinCover.jpg"
-
+import Home from "./pages/Home"
+import Nav from "./components/Nav"
+import About from "./pages/About"
+import Portfolio from "./pages/Portfolio"
 
 function App() {
 
   return (
     <BrowserRouter>
       <Nav />
-      <Background />
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route exact path="About">
+          <About />
+        </Route>
+        <Route exact path="Portfolio">
+          <Portfolio />
+        </Route>
+      </Switch>
     </BrowserRouter>
 
   );
 }
-
 
 export default App;
