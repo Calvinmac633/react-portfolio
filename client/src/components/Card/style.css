@@ -1,0 +1,17 @@
+.card {
+    background-color: rgba(245, 245, 245, 0.678);
+}
+.cardContainer {
+    padding: 10rem 8rem 0rem;
+}
+
+p {
+    color: black;
+    font-weight: 500;
+}
+@media (max-width: 650px ) {
+    .cardContainer {
+        padding: 10rem 2rem 0rem;
+    }
+    
+  }

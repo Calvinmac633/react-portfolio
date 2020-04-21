@@ -1,35 +1,3 @@
-.is-hoverable {
-    display: flex;
-}
-.navbar-link {
-    justify-content: center;
-    color: rgb(238, 223, 223);
-    width: 100%;
-    /* background-color: rgba(194, 190, 187, 0.418); */
-    background-color: rgb(221, 172, 170);
-    /* background-color: transparent; */
-}
-.navbar-dropdown {
-   background-color: rgb(221, 172, 170);
-   
-}
-.navbar-item {
-    justify-content: center;
-    padding-left: none;
-    padding-right: none;
-}
-.navbar-item:hover {
-    background-color: rgb(221, 172, 170);
-}
-.navbar-link:hover {
-    color: rgb(221, 172, 170);
-}
-
-@media screen and (max-width: 1024px) {
-.navbar-item, .navbar-link {
-    justify-content: center;
-    padding-left: none;
-    padding-right: none;
-    width: 100%;
-}
+.navbar {
+    background-color: rgba(255, 227, 143, 0.76);
 }

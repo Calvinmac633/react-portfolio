@@ -1,7 +1,16 @@
-.coverButtons {
-    margin: 0 3rem;
+h1, p {
+    color: white;
 }
-.background-content {
+
+.background {
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    z-index: 0;
+  }
+  
+  .background-content {
     height: 100%;
     display: flex;
     /* flex-direction: column; */
@@ -19,3 +28,5 @@
         justify-content: center;
     }
   }
+
+  
