@@ -16,6 +16,7 @@ function Home() {
 
     return (
             <div className="background" style={{ backgroundImage: `url(${imageUrl})` }}>
+                {/* <h1>Calvin Macintosh</h1> */}
                 <AboutLink />
             </div>
     );

@@ -11,7 +11,7 @@ p {
 }
 @media (max-width: 650px ) {
     .cardContainer {
-        padding: 10rem 2rem 0rem;
+        padding: 6rem 2rem 0rem;
     }
     
   }
