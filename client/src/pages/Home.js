@@ -6,16 +6,17 @@ import { AboutLink, PortfolioLink } from "../components/CoverLinks"
 import { Link } from "react-router-dom";
 import About from "./About";
 import image from "../assets/CalvinCover.jpg"
-import mobileImage from "../assets/CalvinCoverMobile.jpg"
+import mobileImage from "../assets/homemobile.jpg"
 import aboutImage from "../assets/calvinroof2.jpg"
 import Nav from "../components/Nav"
+import "./style.css";
 
 
 function Home() {
-    const imageUrl = window.innerWidth >= 650 ? image : mobileImage
+    // const imageUrl = window.innerWidth >= 650 ? image : mobileImage
 
     return (
-            <div className="background" style={{ backgroundImage: `url(${imageUrl})` }}>
+            <div className="background" style={{ backgroundImage: `url(${image})`, height: "100vh" }}>
                 {/* <h1>Calvin Macintosh</h1> */}
                 <AboutLink />
             </div>
