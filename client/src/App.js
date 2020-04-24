@@ -12,20 +12,18 @@ function App() {
   return (
     <BrowserRouter>
       <Nav />
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
 
-          <Route exact path="/About">
-            <About />
-          </Route>
-          <Route exact path="/Portfolio">
-            <Portfolio />
-          </Route>
-
-
-        </Switch>
+        <Route exact path="/About">
+          <About />
+        </Route>
+        <Route exact path="/Portfolio">
+          <Portfolio />
+        </Route>
+      </Switch>
 
 
     </BrowserRouter>

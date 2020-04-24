@@ -7,21 +7,24 @@ function Nav() {
 
     <nav className="navbar is-fixed-top is-transparent is-solid">
       <div className="navbar-brand">
-        <a className="navbar-item" href="https://www.gocomics.com/calvinandhobbes" target="_blank">
+        <a className="navbar-item" href="/">
           <img src="https://freepngimg.com/download/calvin_and_hobbes/31830-8-calvin-and-hobbes-transparent-background.png" width="70" height="112" />
         </a>
-        <div className="navbar-burger burger" data-target="navbarExampleTransparentExample">
+        {/* <div className="navbar-burger burger" data-target="navbarExampleTransparentExample">
           <span></span>
           <span></span>
           <span></span>
-        </div>
+        </div> */}
       </div>
 
       <div id="navbarExampleTransparentExample" className="navbar-menu">
         <div className="navbar-start">
           <a className="navbar-item" href="/">
-            Home
+            <i className="fas fa-home"></i>
       </a>
+          <h1 className="navbar-item name" href="/">
+            Calvin Macintosh
+      </h1>
           {/* <div className="navbar-item has-dropdown is-hoverable">
             <a className="navbar-link" href="https://bulma.io/documentation/overview/start/">
               Docs
@@ -75,7 +78,7 @@ function Nav() {
                 </a>
               </p>
               <p className="control">
-                <a className="button is-link is-outlined" href="https://github.com/jgthms/bulma/releases/download/0.8.2/bulma-0.8.2.zip">
+                <a onClick={() => alert("Email Function Available Shortly")}className="button is-link is-outlined" href="">
                   <span className="icon">
                     <i className="fas fa-envelope-open-text"></i>
                   </span>

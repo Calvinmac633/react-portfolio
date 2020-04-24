@@ -37,11 +37,12 @@ export function AboutCard() {
                         As the rise of automation in the workplace continues, especially in the finance industry, I hope to
                         stay ahead of the curve by incorporating the skills I've learned for a more efficient future.</p>
 
-                        <p>Proficient in full-stack web development (HTML, CSS, javascript, SQL, MongoDB, React). Familiarity with: AJAX, DOM, JSON, Node.js, REST, Postman, Bootstrap, Express.js, and Handlebars <a>@bulmaio</a>.
-<a href="#">#css</a> <a href="#">#responsive</a>
+                        <p>Proficient in full-stack web development (HTML, CSS, javascript, SQL, MongoDB, React). Familiarity with: AJAX, DOM, JSON, Node.js, REST, Postman, Bootstrap, Express.js, and Handlebars. 
+                            {/* <a>@bulmaio</a>.
+<a href="#">#css</a> <a href="#">#responsive</a> */}
                         </p>
-                        <br />
-                        <time datetime="2016-1-1">21 April 2020</time>
+                        {/* <br />
+                        <time datetime="2016-1-1">21 April 2020</time> */}
                     </div>
                 </div>
             </div>
