@@ -57,7 +57,7 @@ function Nav() {
         </div>
 
         <div className="navbar-end">
-          <div className="navbar-item">
+          <div className="navbar-item buttons">
             <div className="field is-grouped">
               <p className="control">
                 <a className="bd-tw-button button is-link is-outlined" target="_blank" href="https://github.com/Calvinmac633">

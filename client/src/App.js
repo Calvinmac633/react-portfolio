@@ -5,13 +5,14 @@ import Home from "./pages/Home"
 import About from "./pages/About"
 import Portfolio from "./pages/Portfolio"
 import Nav from "./components/Nav"
+import BootstrapNav from "./components/BootstrapNav"
 
 
 function App() {
 
   return (
     <BrowserRouter>
-      <Nav />
+      <BootstrapNav />
       <Switch>
         <Route exact path="/">
           <Home />

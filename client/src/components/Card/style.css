@@ -3,6 +3,7 @@
 }
 .cardContainer {
     padding: 6rem 8rem 0rem;
+    height: 100%;
 }
 .card-content{
    padding: .5rem;
@@ -14,6 +15,6 @@ p {
 }
 @media (max-width: 650px ) {
     .cardContainer {
-        padding: 6rem 2rem 0rem;
+        padding: 6rem 2rem 4rem;
     }    
   }
