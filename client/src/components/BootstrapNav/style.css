@@ -16,10 +16,10 @@
 }
 
 
-
-
 .collapsedContent {
     background-color: rgba(255, 227, 143, 0.39);
+    display: flex;
+    justify-content: center;
 }
 .navbar-toggler-icon {
     background-color: rgba(255, 227, 143, 0.68);
@@ -31,6 +31,18 @@ span {
 .navbar-toggler {
     background-color: white;
     margin-left: 2em;
+}
+.buttons, .navbar-item {
+    display: flex;
+    justify-content: flex-end;
+}
+.buttons {
+    height: 7rem;
+    align-items: flex-end;
+    padding-bottom: 0;
+}
+.field {
+    height: 2rem;
 }
 .navbar-item img {
     max-height: 60px;
