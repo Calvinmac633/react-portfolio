@@ -3,10 +3,13 @@
     padding: 0rem;
 }
 .navbar-item {
-    height: 90px;
+    height: 60px;
+    padding: 0rem;
+    margin: .5rem;
+
 }
 .navbar-item img {
-    max-height: 90px;
+    max-height: 60px;
 
 }
 .name {
@@ -32,15 +35,19 @@ span {
     background-color: white;
     margin-left: 2em;
 }
-.buttons, .navbar-item {
-    display: flex;
-    justify-content: flex-end;
+
+/* Add in some @media screen */
+.button.is-small {
+    padding: .5rem;
 }
 .buttons {
     height: 7rem;
     align-items: flex-end;
     padding-bottom: 0;
+    display: flex;
+    justify-content: flex-end;
 }
+
 .field {
     height: 2rem;
 }
