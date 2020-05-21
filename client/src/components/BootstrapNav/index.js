@@ -57,7 +57,7 @@ function BootstrapNav() {
                         </span>
                 </button>
                 <div className="navbar-item">
-                    <a href="/">
+                    <a href="/#Home">
                         <img src="https://freepngimg.com/download/calvin_and_hobbes/31830-8-calvin-and-hobbes-transparent-background.png" width="70" height="112" />
                     </a>
                 </div>

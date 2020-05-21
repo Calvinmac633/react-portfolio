@@ -15,7 +15,7 @@ function About() {
 
     return (
 
-        <div className="background" style={{ backgroundImage: `url(${imageUrl})` }}>
+        <div id="About" className="background" style={{ backgroundImage: `url(${imageUrl})` }}>
             <AboutCard />
 
         </div>

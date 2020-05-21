@@ -10,12 +10,13 @@ h1, p {
     z-index: 0;
   }
   
-  .background-content {
+  /* .background-content {
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px;
+    padding: 0;
+    padding-bottom: 6rem;
   }
   
   @media (max-width: 650px ) {
@@ -27,6 +28,6 @@ h1, p {
     .background-content {
         justify-content: center;
     }
-  }
+  } */
 
   

@@ -17,7 +17,7 @@ function Portfolio() {
     
     return (
 
-        <div className="background" style={{ backgroundImage: `url(${imageUrl})` }}>
+        <div id="Portfolio" className="background" style={{ backgroundImage: `url(${imageUrl})` }}>
             <PortfolioDisplay />
         </div>
     );

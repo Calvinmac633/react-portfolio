@@ -22,7 +22,7 @@ function PortfolioDisplay() {
         <div className="tile is-parent">
           <div className="tile is-child box">
             <p className="subtitle">Weather App</p>
-            <figure className="image is-4by3">
+            <figure>
               <img src={WeatherApp} />
             </figure>
             <br />
@@ -34,7 +34,7 @@ function PortfolioDisplay() {
         <div className="tile is-parent">
           <div className="tile is-child box">
             <p className="subtitle">Restaurant App</p>
-            <figure className="image is-4by3">
+            <figure>
               <img src={restaurantApp} />
             </figure>
             <br />
@@ -46,7 +46,7 @@ function PortfolioDisplay() {
         <div className="tile is-parent">
           <div className="tile is-child box">
             <p className="subtitle">Note Taking App</p>
-            <figure className="image is-4by3">
+            <figure>
               <img src={NoteTakerApp} />
             </figure>
             <br />

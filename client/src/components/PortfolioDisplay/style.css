@@ -6,3 +6,21 @@
     color: rgb(250, 194, 27);
     font-size: 1.5em;
 }
+
+@media (max-width: 650px ) {
+    .is-ancestor {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        flex-grow: 0;
+        flex-shrink: 0;
+        justify-content: start;
+    
+    }
+    .subtitle {
+        font-size: 1em;
+        flex-shrink: 1;
+        flex-grow: 1;
+    }
+ 
+}
+
