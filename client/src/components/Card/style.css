@@ -1,9 +1,5 @@
 .card {
-    background-color: rgba(245, 245, 245, 0.678);
-}
-.cardContainer {
-    padding: 6rem 8rem 0rem;
-    height: 100%;
+    background-color: rgba(255, 227, 143, 0.875);
 }
 .card-content{
    padding: .5rem;
@@ -13,8 +9,3 @@ p {
     font-weight: 500;
     font-size: .75em;
 }
-@media (max-width: 650px ) {
-    .cardContainer {
-        padding: 6rem 2rem 4rem;
-    }    
-  }

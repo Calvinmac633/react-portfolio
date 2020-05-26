@@ -7,13 +7,15 @@ import { Link } from "react-router-dom";
 export function Links() {
     return (
         <div className="home-container fromCoverLinks">
-            <h1 style={{color: "grey"}}>Calvin Macintosh</h1>
-            <h5 style={{color: "grey"}}>Full Stack Web Developer</h5>
+            <h1>Full Stack Web Developer</h1>
+            <h3>______</h3>
+            <br></br>
+            <h4>Below are examples of deployed applications that I have developed and designed. View the github link or Heroku page for further exploration.</h4>
             <br></br>
             <br></br>
             <br></br>
             <br></br>
-                <br></br>
+            <br></br>
             <br></br>
             <div className="background-content fromCoverLinks">
                 <a href="/#About">

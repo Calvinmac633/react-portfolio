@@ -6,6 +6,7 @@ import About from "./pages/About"
 import Portfolio from "./pages/Portfolio"
 import Nav from "./components/Nav"
 import BootstrapNav from "./components/BootstrapNav"
+import Contact from "./pages/Contact"
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Home />
           <About />
           <Portfolio />
+          <Contact />
         </Route>
 
         <Route exact path="/About">

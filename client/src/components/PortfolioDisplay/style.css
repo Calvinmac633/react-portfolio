@@ -6,11 +6,15 @@
     color: rgb(250, 194, 27);
     font-size: 1.5em;
 }
+.is-ancestor {
+    display: flex;
+    flex-wrap: wrap; 
+}
 
 @media (max-width: 650px ) {
     .is-ancestor {
         display: flex;
-        flex-wrap: wrap-reverse;
+        flex-wrap: wrap;
         flex-grow: 0;
         flex-shrink: 0;
         justify-content: start;
