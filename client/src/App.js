@@ -4,9 +4,10 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Home from "./pages/Home"
 import About from "./pages/About"
 import Portfolio from "./pages/Portfolio"
-import Nav from "./components/Nav"
 import BootstrapNav from "./components/BootstrapNav"
 import Contact from "./pages/Contact"
+import {Skills} from "./pages/Skills"
+
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Home />
           <About />
           <Portfolio />
+          <Skills />
           <Contact />
         </Route>
 

@@ -10,10 +10,7 @@ export function Links() {
             <h1>Full Stack Web Developer</h1>
             <h3>______</h3>
             <br></br>
-            <h4>Below are examples of deployed applications that I have developed and designed. View the github link or Heroku page for further exploration.</h4>
-            <br></br>
-            <br></br>
-            <br></br>
+            <h4 style={{color: "white"}}>Below are examples of deployed applications that I have developed and designed. View the github link or Heroku page for further exploration.</h4>
             <br></br>
             <br></br>
             <br></br>
