@@ -1,7 +1,5 @@
 import React from "react";
 import "./style.css";
-import Card from 'react-bootstrap/Card'
-import CardColumns from 'react-bootstrap/CardColumns'
 import NoteTakerApp from "../../assets/NoteTakerApp.jpg"
 import restaurantApp from "../../assets/restaurantApp.jpg"
 import WeatherApp from "../../assets/WeatherApp.jpg"

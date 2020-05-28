@@ -3,13 +3,6 @@ import React from "react";
 // import Jumbotron from "../components/Jumbotron";
 // import image from "../assets/CalvinCover.jpg"
 import "./style.css";
-import Card from 'react-bootstrap/Card'
-import CardColumns from 'react-bootstrap/CardColumns'
-import NoteTakerApp from "../assets/NoteTakerApp.jpg"
-import restaurantApp from "../assets/restaurantApp.jpg"
-import WeatherApp from "../assets/WeatherApp.jpg"
-import shopalot from "../assets/shopalot.JPG"
-
 import portImage from "../assets/calvinport.jpg"
 import portMobile from "../assets/portmobile.jpg"
 

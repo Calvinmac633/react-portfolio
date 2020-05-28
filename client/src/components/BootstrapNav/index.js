@@ -1,6 +1,5 @@
 import React from "react";
 import "./style.css";
-import resume from "../../assets/Calvin-Macintosh-Resume.pdf"
 
 function BootstrapNav() {
     return (
