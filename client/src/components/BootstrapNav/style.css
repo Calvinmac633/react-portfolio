@@ -2,6 +2,8 @@
     /* background-color: rgba(255, 227, 143, 0); */
     background-color: rgba(255, 227, 143, 0.966);
     padding-bottom: 0!important;
+    padding-left: 2rem;
+    padding-right: 2rem;
     
 }
 .nav-container {
@@ -14,9 +16,7 @@
 }
 .nav-link {
     padding: 0;
-    margin-bottom: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-bottom: .25rem;
 }
 
 .navbar-item {
@@ -40,11 +40,15 @@
     display: flex;
     justify-content: center;
     margin-top: .5rem;
+    font-size: 1.5rem;
 }
 
 .navbar-toggler {
     background-color: white;
     margin-bottom: 1rem;
+}
+.navbar-toggler-icon {
+    background-color: rgba(255, 227, 143, 0.966);
 }
 
 a:hover {
@@ -52,4 +56,11 @@ a:hover {
 }
 .navbar-item:hover {
     background-color: rgba(255, 227, 143, 0);
+}
+
+ul {
+    display: flex;
+    justify-content: right;
+    margin-right: 0!important;
+    margin-left: 80%;
 }

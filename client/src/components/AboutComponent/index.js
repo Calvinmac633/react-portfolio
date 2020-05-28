@@ -23,7 +23,7 @@ export function AboutComponent() {
                     <br></br>
                     <div className="field is-grouped">
                         <p className="control">
-                            <a className="bd-tw-button is-large button is-light is-outlined" target="_blank" href="https://github.com/Calvinmac633?tab=repositories">
+                            <a className="bd-tw-button is-medium button is-light is-outlined" target="_blank" href="https://github.com/Calvinmac633?tab=repositories">
                                 <span className="icon">
                                     <i className="fab fa-github"></i>
                                 </span>
@@ -34,7 +34,7 @@ export function AboutComponent() {
                         </p>
                         <p className="control">
                             <a href={resume} target="_blank"
-                                className="button is-large is-light is-outlined">
+                                className="button is-medium is-light is-outlined">
                                 <span className="icon">
                                     <i className="fas fa-check-square"></i>
                                 </span>

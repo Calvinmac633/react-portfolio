@@ -18,7 +18,7 @@
     flex-direction: column;
     align-items: center;
     /* padding: 40px; */
-    padding-top: 10rem;
+    padding-top: 6rem;
     width: 50%;
     margin: auto;
     text-align: center;
@@ -46,4 +46,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
   font-family: 'Roboto', sans-serif;
   color: rgb(98, 89, 89);
+}
+@media (max-width: 650px ) {
+  h1, h4 {
+      font-size: 1.25rem;
+  }
+
 }
