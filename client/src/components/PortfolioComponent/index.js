@@ -36,7 +36,7 @@ export function PortfolioComponent() {
                                     <p className="card-text">A grocery list app that  allows users to create new, or join existing shopping
                                     lists that can be viewed and updated by other members who are given access.
                                     </p>
-                                    <small className="card-text-muted">React.js, Node.js, Express, MongoDB</small>
+                                    <small className="card-text-muted">React.js, Node.js, Express.js, MongoDB</small>
 
                                 </div>
                             </div>
@@ -50,7 +50,7 @@ export function PortfolioComponent() {
                                     </div>
                                     <p className="card-text">A weather forecasting application! Search by city to receive real time weather updates, as well as the future 5-day forecast.
                                 </p>
-                                    <small className="card-text-muted">Node.js, Express</small>
+                                    <small className="card-text-muted">JavaScript, jQuery, HTML, CSS</small>
 
                                 </div>
                             </div>
@@ -63,7 +63,7 @@ export function PortfolioComponent() {
                                         <a target="_blank" href="http://sleepy-sands-76241.herokuapp.com/">View Deployment</a>
                                     </div>
                                     <p className="card-text">A note taker application! Create, delete, and update notes!</p>
-                                    <small className="card-text-muted">Node.js, Express</small>
+                                    <small className="card-text-muted">Node.js, Express.js, jQuery</small>
 
                                 </div>
                             </div>
