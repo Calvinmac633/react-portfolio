@@ -22,7 +22,7 @@ function Contact() {
         <div id="Contact" className="background" style={{ backgroundImage: `url(${imageUrl})` }}>
             <div className="home-container fromCoverLinks">
                 <h1>Reach Out!</h1>
-                <h3>______</h3>
+                <h3>- - -</h3>
                 <br></br>
                 <br></br>
                 <div className="row">

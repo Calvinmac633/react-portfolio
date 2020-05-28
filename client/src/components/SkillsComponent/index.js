@@ -21,8 +21,7 @@ export function SkillsComponent() {
                     <h1 style={{ marginBottom: "0" }} class="title">
                         Skills
       </h1>
-                    <h1 class="title">____</h1>
-                    <br></br>
+                    <h1 class="title">- - -</h1>
                     <div className="iconRows">
                         <div className="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-xs-12">
                             <img className="icons" src={githubIcon} />

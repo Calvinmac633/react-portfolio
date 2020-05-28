@@ -15,8 +15,7 @@ export function AboutComponent() {
             <div class="hero-body">
                 <div class="container">
                     <h1 style={{color: "white"}}>About Me</h1>
-                    <h3 style={{color: "white"}}>______</h3>
-                    <br></br>
+                    <h3 style={{color: "white"}}>- - -</h3>
                     <h4 style={{color: "white"}}>A Full-Stack Developer, recently graduated from University of Pennsylvania's Coding Bootcamp. 
                     Experienced in working with others to produce dynamic, user-friendly web applications.
                     Continue below to see what technologies and projects I have experience in.</h4>
