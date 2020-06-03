@@ -1,6 +1,4 @@
 import React from "react";
-// import { Col, Row, Container } from "../components/Grid";
-// import Jumbotron from "../components/Jumbotron";
 import { Links } from "../components/CoverLinks"
 import image from "../assets/CalvinCover.jpg"
 import mobileImage from "../assets/homemobile.jpg"

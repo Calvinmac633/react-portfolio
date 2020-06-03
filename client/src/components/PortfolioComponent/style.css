@@ -1,6 +1,10 @@
 .partCards {
  height: 500px;   
 }
+.hero-body {
+    padding: 1rem!important;
+    padding-top: 4rem!important;
+  }
 .card-img-top {
     padding-bottom: 1rem;
 }
@@ -40,9 +44,16 @@
     a {
         font-size: .75rem;
     }
+    .hero-body {
+        padding-left: .25rem;
+        padding-right: .25rem;
+      }
   }
 
   .cardHeader {
       display: flex;
       justify-content: space-evenly;
+  }
+  h1 {
+      margin: 0!important;
   }

@@ -1,9 +1,9 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Calvin App",
+  "name": "Create React Calvin App",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "calvin.ico",
       "sizes": "192x192",
       "type": "image/png"
     }

@@ -1,3 +1,8 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
 .background {
     height: 100vh;
     background-size: cover;
@@ -18,29 +23,6 @@
   .button {
     color: white;
   }
-
-  
-  /* .background-content {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    padding-bottom: 6rem;
-  }
-  
-  @media (max-width: 650px ) {
-    .background {
-        background-position: center center;
-        height: 100%;
-    }
-  
-    .background-content {
-        justify-content: center;
-    }
-  } */
-
-
 
   .contactCard {
     padding: 2rem;
