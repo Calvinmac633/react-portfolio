@@ -74,13 +74,13 @@ export function PortfolioComponent() {
                                             <div className="card-block"></div>
                                             <img className="card-img-top" src={passwordGenImage}></img>
                                             <div className="cardHeader">
-                                                <h5 className="card-title">Shopalot</h5>
-                                                <a target="_blank" href="https://shopalot-checkitout.herokuapp.com/">View Deployment</a>
+                                                <h5 className="card-title">Password Generator</h5>
+                                                <a target="_blank" href="https://calvinmac633.github.io/password-generator/">View Deployment</a>
                                             </div>
-                                            <p className="card-text">A grocery list app that  allows users to create new, or join existing shopping
-                                            lists that can be viewed and updated by other members who are given access.
+                                            <p className="card-text">This self-explanatory application generates a password based on selected user’s criteria. Click “Generate” to display the newly created password, 
+                                            and click “Copy” to copy the password to your clipboard.
                                     </p>
-                                            <small className="card-text-muted">React.js, Node.js, Express.js, MongoDB</small>
+                                            <small className="card-text-muted">JavaScript, jQuery, HTML, CSS</small>
 
                                         </div>
                                     </div>
