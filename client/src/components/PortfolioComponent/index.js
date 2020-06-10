@@ -80,7 +80,7 @@ export function PortfolioComponent() {
                                             <p className="card-text">This self-explanatory application generates a password based on selected user’s criteria. Click “Generate” to display the newly created password, 
                                             and click “Copy” to copy the password to your clipboard.
                                     </p>
-                                            <small className="card-text-muted">JavaScript, jQuery, HTML, CSS</small>
+                                            <small className="card-text-muted">JavaScript, jQuery, Materialize-UI, HTML, CSS</small>
 
                                         </div>
                                     </div>
